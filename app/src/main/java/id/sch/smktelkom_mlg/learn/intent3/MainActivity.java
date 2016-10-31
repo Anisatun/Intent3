@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (intent.resolveActivity(getPackageManager()) != null)
             startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
+
     }
 
     @Override
@@ -92,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-}
+
+
+    }
 
 
